@@ -1,3 +1,6 @@
+# Networking Utilities
+PACKAGE_WGET=y
+
 # Finding Utilities
 PACKAGE_ACK=y
 
