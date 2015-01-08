@@ -9,3 +9,6 @@ PACKAGE_TMUX=y
 
 # Editors
 PACKAGE_VIM=y
+
+# Develop
+PACKAGE_GIT=y
