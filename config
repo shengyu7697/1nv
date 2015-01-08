@@ -7,3 +7,5 @@ PACKAGE_ACK=y
 # Terminal
 PACKAGE_TMUX=y
 
+# Editors
+PACKAGE_VIM=y
