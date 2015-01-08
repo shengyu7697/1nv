@@ -6,6 +6,7 @@ PACKAGE_ACK=y
 
 # Terminal
 PACKAGE_TMUX=y
+PACKAGE_MINICOM=y
 
 # Editors
 PACKAGE_VIM=y
