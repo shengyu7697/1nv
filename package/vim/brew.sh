@@ -1,3 +1,5 @@
 #!/bin/bash
 
-brew install vim
+if ! command -v vim > /dev/null; then
+    brew install vim
+fi

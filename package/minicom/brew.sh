@@ -1,3 +1,5 @@
 #!/bin/bash
 
-brew install minicom
+if ! command -v minicom > /dev/null; then
+    brew install minicom
+fi

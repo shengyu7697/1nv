@@ -1,3 +1,5 @@
 #!/bin/bash
 
-brew install cscope
+if ! command -v cscope > /dev/null; then
+    brew install cscope
+fi

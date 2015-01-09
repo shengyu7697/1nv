@@ -1,3 +1,5 @@
 #!/bin/bash
 
-brew install ack
+if ! command -v ack > /dev/null; then
+    brew install ack
+fi

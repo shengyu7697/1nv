@@ -1,3 +1,5 @@
 #!/bin/bash
 
-brew install wget
+if ! command -v wget > /dev/null; then
+    brew install wget
+fi
