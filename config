@@ -10,6 +10,7 @@ PACKAGE_MINICOM=y
 
 # Editors
 PACKAGE_VIM=y
+PACKAGE_GVIM=y
 
 # Develop
 PACKAGE_GIT=y
