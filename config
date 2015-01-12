@@ -1,4 +1,5 @@
 # Networking Utilities
+PACKAGE_SSHD=y
 PACKAGE_WGET=y
 
 # Finding Utilities
