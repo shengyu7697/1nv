@@ -36,7 +36,11 @@ do
             if [ -f $START_SCRIPT ]; then
                 sh $START_SCRIPT
             fi
-        elif [ -f $SETUP_SCRIPT ]; then
+        else
+            echo -e "\033[31;4mWarning\033[0m: no $INSTALL_SCRIPT file"
+        fi
+
+        if [ -f $SETUP_SCRIPT ]; then
             sh $SETUP_SCRIPT
         fi
 
