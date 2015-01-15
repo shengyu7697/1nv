@@ -31,17 +31,17 @@ do
         echo "install $NAME ..."
         cd $NAME
         if [ -f $INSTALL_SCRIPT ]; then
-            bash $INSTALL_SCRIPT
+            ./$INSTALL_SCRIPT
 
             if [ -f $START_SCRIPT ]; then
-                bash $START_SCRIPT
+                ./$START_SCRIPT
             fi
         else
             echo -e "\033[31;4mWarning\033[0m: no $INSTALL_SCRIPT file"
         fi
 
         if [ -f $SETUP_SCRIPT ]; then
-            bash $SETUP_SCRIPT
+            ./$SETUP_SCRIPT
         fi
 
         cd - > /dev/null
