@@ -1,4 +1,5 @@
 # Networking Utilities
+PACKAGE_FIREFOX=y
 PACKAGE_SSHD=y
 PACKAGE_SAMBA=y
 PACKAGE_WGET=y
