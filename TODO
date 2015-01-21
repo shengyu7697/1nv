@@ -1,5 +1,3 @@
-sshfs
-exfat
 ntfs
 add -force install
 u14 apt-get can't contiune install
