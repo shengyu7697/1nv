@@ -1,4 +1,5 @@
-# Edit config
-sudo vim /etc/vsftpd.conf
+## Edit config
 
-write_enable=YES
+    sudo vim /etc/vsftpd.conf
+
+    write_enable=YES
