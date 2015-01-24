@@ -31,7 +31,7 @@ do
         echo "install $NAME ..."
         cd $NAME
         if [ -f $INSTALL_SCRIPT ]; then
-            ./$INSTALL_SCRIPT
+            ./$INSTALL_SCRIPT | tee /tmp/install.log
 
             if [ -f $START_SCRIPT ]; then
                 ./$START_SCRIPT
@@ -48,3 +48,4 @@ do
     fi
 done < config
 
+rm -rf /tmp/install.log
