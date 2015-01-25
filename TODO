@@ -1,5 +1,2 @@
-ftp
 ntfs
 add -force install
-u14 apt-get can't contiune install
-if package already installed, do not restart service
